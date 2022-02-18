@@ -8,27 +8,34 @@
 <body>
 <h1>Introduction to HTML by Aaron O Regan</h1>
 <h2>Doctype</h2>
-<p>&lt;!doctype html&gt;&nbsp;</p>
-<h3></h3>
-	
+<p>&lt;!doctype html&gt; is the code for doctype&nbsp;</p>
+<p>Doctype is the information to the browser about what document type to expect.</p>	
+<h3></h3>	
 <h2>html</h2>
+<p>HTML is the standard markup language for Web pages</p>
+<p>&lt;html&gt; &lt;head&gt; &lt;meta&gt; &lt;p&gt;This is a html(didn't know if i have to copy everything for html.)&lt;/p&gt;&lt;/html&gt;</p>
 <h2>head</h2>
+<p>&lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;Introduction to HTML by Aaron O Regan&lt;/title&gt; &lt;/head&gt; is the code for head&nbsp;</p>
+<p>Head is the container for metadata and is placed between the html tag and the body tag.</p>
 <h2>body</h2>
-<h2>title</h2>	
+<p>Body contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+<p>&lt;body&gt;&nbsp; &lt;h1&gt;Everything goes after body then close body when done&lt;/h1&gt;&lt;/body&gt;</p>
+<h2>title</h2>
+<p>Title defines the title of the document.</p>
+<p>&lt;title&gt;Introduction to HTML by Aaron O Regan&lt;/title&gt; is the code for title.&nbsp;</p>
 <h2>p</h2>
 <p>&lt;p&gt;This is a paragraph&lt;/p&gt;&nbsp;</p>
 <p>This is a paragraph</p>	
-	
 <h2>span</h2>
 <p>Span is an inline container used to mark up a part of a text, or a part of a document</p>
-<span>This is span</span>
+This is <span style="background-color:red">span</span>
 <p>&lt;span&gt;</p>
 <p>&lt;p&gt;This is the code for span&lt;/p&gt;&lt;/span&gt;&nbsp;</p>
 <h2>div</h2>
 <p>Div is a division or a section in an HTML document.</p>
 <p>&lt;div&gt;<br>
 &lt;p&gt;This is the code for div&lt;/p&gt;&lt;/div&gt;</p>
-<div>
+<div style="background-color:blue">
 <p>This is a div</p></div>
 <h2>Heading elements-h1 to h6</h2>
 <p>Example of the code for h1 to h6</p>
@@ -53,10 +60,13 @@
 <h2>tables & caption</h2>
 <p>Table containing two columns and two rows</p>
 <p>Captions position table captions </p>
+<p>&lt;table&gt;This is the code for table&lt;/table&gt;</p>
+<p>&lt;caption&gt;This is the code for caption&lt;/caption&gt;&nbsp;</p>
 <table>
 	<th>Th(table heading)</th>
-	<tr>Tr(table row)<td>This is a td(table data)</td></tr>
-	<tr>2nd row><td>2nd data</td></tr></table>
+	<tr><td>This is a td(table data)</td></tr>
+	<caption>This is a caption</caption>
+</table>
 <h2>lists</h2>
 <p>&lt;ol&gt;This is an ordered list&nbsp;</p>
 <p>&lt;li&gt;This is an unordered list&lt;/li&gt; &lt;li&gt;Text&lt;/li&gt; &lt;li&gt;??&lt;/li&gt; &lt;li&gt;Test&lt;/li&gt;</p>
@@ -70,19 +80,71 @@
 	<li>Test</li>
 	</ol>
 <h2>images & Alt</h2>
+<p>images code is used to embed an image in a web page.</p>
+<p>Alt provides alternative information for an image if a user for some reason cannot view it</p>
+<p>&lt;img src="AOR.jpg" width="388" height="183" alt="Aor logo"/&gt; Code for images and alt</p>
+<p>&nbsp;</p>
+<img src="AOR.jpg" width="388" height="183" alt="Aor logo"/>
 <h2>links</h2>
+<p>Links are a link that link to an external CSS file.</p>
+<p>&lt;a href="CCC_Assignment.html"&gt;link&lt;/a&gt;Code for links&nbsp;</p>
+<p><a href="CCC_Assignment.html">CCC</a></p>
 <h2>quote & blockquote</h2>
+<p>Blockquote defines a section that is quoted from another source.</p>
+<p>Quote defines what a person says</p>
+<p>&lt;blockquote&gt;To be or not to be&lt;/blockquote&gt; is the code for blockquote</p>
+<p>&lt;q&gt;Quote&lt;/q&gt; is code for quote&nbsp;</p>
+<q>Quote</q>
+<blockquote>To be or not to be
+</blockquote>
 <h2>abbreviations</h2>
+<p>The abbr element is used to mark up an abbreviation or acronym</p>
+<p><abbr>Hi</abbr></p>
+<p>&lt;p&gt;&lt;abbr&gt;Hi&lt;/abbr&gt;&lt;/p&gt; is the code for abbreviations&nbsp;</p>
 <h2>meta</h2>
+<p>Meta specify's the character set, page description, keywords, author of the document, and viewport settings.</p>
+<p>&lt;meta charset="utf-8"&gt; is the code for meta&nbsp;</p>
 <h2>forms</h2>
+<p>Forms is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc</p>
+<p>&lt;form&gt; &lt;form action="/action_page.php"&gt; &lt;label for="fname"&gt;First name:&lt;/label&gt;&lt;br&gt; &lt;input type="text" id="fname" name="fname" value="Aaron"&gt;&lt;br&gt; &lt;label for="lname"&gt;Last name:&lt;/label&gt;&lt;br&gt; &lt;input type="text" id="lname" name="lname" value="O Regan"&gt;&lt;br&gt;&lt;br&gt; &lt;/form&gt; is the code for forms.&nbsp;</p>
+<form>
+	<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Aaron"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="O Regan"><br><br>
+</form>
 <h2>Special symbols and character entities:</h2>
+<p>Character entities add such symbols to an HTML page and you can use the entity name or the entity number to get symbols such as a greater than symbol.</p>
+<p>&amp;#60; is a code for special symbols and character entities&nbsp;</p>
+&#60;
 <h2>Copyright</h2>
+<p>Copyright means legal and exclusive rights given to a person for a fixed number of years to print, publish or perform.</p>
+<p>&amp;copy; is the code for copyright&nbsp; &nbsp;</p>
+<p>&copy;</p>
+	<i class="far fa-copyright"></i>
 <h2>Registered Trademark</h2>
+    <p>&amp;reg; is the code for registered trademark&nbsp;</p>
+<p>Registered tradmark is a symbol that provides notice that the preceding word or symbol is a trademark or service mark that has been registered with a national trademark office</p>
+&reg;
 <h2>Ampersand</h2>
+<p>&amp;amp; is the code for Ampersand&nbsp;</p>
+<p>Ampersand represents the conjunction "and"</p>
+&amp;
 <h2>Euro</h2>
+<p>Euro is the currency for money</p>
+<p>&amp;euro is the code for euro.&nbsp;</p>
+&euro;
 <h2>Non-breaking space</h2>
+<p>Non-breaking space is a space that will not break into a new line.</p>
+<p>&amp;nbsp; is the code for non-breaking space&nbsp;</p>
+&nbsp;50,000 miles/s
 <h2>Less than</h2>
+<p>&amp;#60 is the code for Less Than&nbsp;</p>
+<p>Less than is used to show the relationship between two values. It states that one value is lesser than the other.</p>
+&#60;
 <h2>Greater than</h2>
+<p>Greater than is used to show the relationship between two values. It states that one value is greater than the other.</p>
 	
 	
 	
